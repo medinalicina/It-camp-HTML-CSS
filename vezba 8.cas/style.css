@@ -1,0 +1,40 @@
+
+.container{
+    width: 100%;
+    height: 40vw;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    justify-content: right;
+    flex-direction: row;
+}
+.card{
+    font-size: 20px;
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+justify-content: space-around;
+}
+button{
+    padding: 10px 20px;
+    border: none;
+    background-color: #ceffff;
+    color: #ffffff;
+    width: 120px;
+    height: 30px;   
+}
+button :hover{ 
+    background-color: #f5f5dc;
+}
+
+/* Horizontalno poravnanje: */
+  /* justify-content: start; defaultna vrednost */
+  /* justify-content: center; */
+  /* justify-content: end; */
+  /* justify-content: space-between; */
+  /* justify-content: space-around; */
+  /* justify-content: space-evenly; */
+  /* Vertikalno poravnanje: */
+  /* align-items: flex-start; defaultna vrednost */
+  /* align-items: center; */
+  /* align-items: end; */

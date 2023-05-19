@@ -1,0 +1,19 @@
+.card{
+    position: relative;
+    transition-delay: 2s;
+    transition-duration: 5s;
+animation-name: med;
+animation-duration: 5s;
+}
+@keyframes med{
+    from{
+        margin-left: 100%;
+        width: 300%;
+    }
+    to{
+        margin-left: 5%;
+        width: 100%;
+
+    }
+   
+}

@@ -1,0 +1,12 @@
+from{
+    width: 30vw;
+    height: 70vw;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.group{
+    display: flex;
+    justify-content: space-between;
+}

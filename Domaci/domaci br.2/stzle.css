@@ -1,0 +1,28 @@
+div {
+    width: 400px;
+    height: 400px;
+    border: solid 1px;
+    margin: auto;
+border-radius: 20px;
+    background-color: black;
+}
+div img {
+    height: 50%;
+    width:350px;
+    border-radius: 30px;
+    margin: 20px;
+
+}
+div p{
+    color: aliceblue;
+    margin-left:1px;
+    margin: 10px;
+}
+div h2{
+    color: white;
+    margin-left: 5px;
+}
+div h6{
+    font-size: xx-small;
+    color: white;
+}

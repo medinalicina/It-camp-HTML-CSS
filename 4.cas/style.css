@@ -1,0 +1,14 @@
+.kartica{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    position: fixed;
+    position: relative;
+}
+.kartica1{
+    position: absolute;
+    top: 10px;
+    width: 150px;
+    height: 150px;
+    background-color: palevioletred;
+}

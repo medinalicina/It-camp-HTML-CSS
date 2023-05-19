@@ -1,0 +1,35 @@
+.card1{
+    width: 900px;
+    height: 200px;
+    background-color: blueviolet;
+    position: relative;
+    top: 50px;
+    border: solid 1px black;
+}
+.logo{
+    width: 300px;
+    height: 80px;
+    position: absolute;
+    background-color: plum;
+    border: solid 1px black;
+    left: 20px;
+    top: 70px;
+}
+.topmenu{
+    width: 150px;
+    height: 35px;
+    background-color: lightseagreen;
+    border: solid 1px black;
+    left: 700px;
+    position: absolute;
+    top: 70px;
+}
+.menu{
+    width: 500px;
+    height: 35px;
+    background-color: aliceblue;
+    top: 190px;
+    position: absolute;
+    left: 260px;
+    border: solid 1px black;
+}

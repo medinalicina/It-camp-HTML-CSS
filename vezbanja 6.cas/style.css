@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+}
+ul{
+    width: 100%;
+    height: 100px;
+    background-color:black ;
+    list-style-type: none;
+    padding-top: 25px;
+}
+li{
+    display: inline;
+    width: 150px;
+    padding: 50px;
+    font-size: 30px;
+    color: white;
+}
+li:hover{
+    background-color: palevioletred;
+    color: white;
+}
+/* ul je jedna lista a podaci u toj listi se oznacavaju sa 
+/*ol jeste lista kojoj dajemo tipa brojeve 1,2,3 itd. Ako stavimo ol type "1" start'50' ono ce da krene od broja 50 i ici ce ka 51,52,53

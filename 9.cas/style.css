@@ -1,0 +1,64 @@
+.card{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+  /*  transform: translate(200px, 200px);*/
+    /*to nam znaci da mi pomerimo div za 200px po sirini i po duzini*/
+    /*transform: rotate(20deg);
+    /*to ce da nam rotira div deg su stepeni*/
+   /* transform: scale(1,3);*/
+    /*za koliko cemo da uvecamo div ako stavimo x uvecace nam samo po x osi ili npr moze y osa*/
+   /* transition: width 3s, height 3s,transform 3s;*/
+    /*ovo znaci za koliko ce sekundi da se promeni ona visina i sirina kod diva kada predjemo strelicom*/
+   /* transition-delay: 2s;*/
+    /*za koliko ce sekundi poceti ta tranzicija*/
+    animation-name: boje;
+    animation-duration: 3s;
+    /*to je koliko nam traje animacija*/
+    animation-iteration-count:infinite ;
+    /*koliko ce puta ta animacija da se primeni*/
+    position: relative;
+}
+.card :hover{
+   /* width: 300px;
+    height: 300px;
+    transform: translate(200px,200px);*/
+
+}
+/*@keyframes vezba{
+    from{
+        background-color: red;
+    }
+    to{
+        background-color: blue;
+    }
+}*/
+@keyframes boje{
+    0%{
+        background-color: red;
+        top: 0;
+        left: 0px;
+    }
+    25%{
+        background-color: blue;
+        top: 0;
+        left: 500px;
+    
+    }
+    50%{
+        background-color: green;
+        top: 500px;
+        left: 500px;
+    
+    }
+    75%{
+        background-color:yellow ;
+        top: 500px;
+        left: 0px;
+    }
+    100%{
+        background-color: white;
+        top:0px;
+        left: 0px;
+    }
+}

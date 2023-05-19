@@ -1,0 +1,48 @@
+.container{
+    width: 70vw;
+    height: 40vw;
+    display: flex;
+    justify-content: space-evenly;
+    
+    margin-left: 200px;
+    margin-top: 70px;
+    
+}
+.mapa{
+    width: 55%;
+    height: 100%;
+    
+
+}
+.forma{
+    width: 40%;
+    height: 100%;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+form{
+    height: 70%;
+    display:flex;
+    flex-direction: column;
+    padding-top: 50px;
+    justify-content: space-between;
+    align-content: space-between;
+    margin: auto;
+    border-radius: 5px;
+
+}
+button{
+    width: 430px;
+    height: 40px;
+    background-color: blue;
+    color: white;
+    border: none;
+    
+}
+.label{
+    margin-bottom: 20px;
+}
+.group{
+    display: flex;
+    flex-direction: column;
+}

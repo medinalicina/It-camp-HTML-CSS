@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.item{
+    width: 200px;
+    height: 200px;
+    flex-grow: 1;
+    /*to je kada hocemo da svi elementi imaju istu sirinu koliko god menjamo sirinu ekrana*/
+}
+.item p{
+    padding-left: 2rem;
+    font-weight: bold;
+    color: white;
+}
+.flex-container{
+    border: 10px solid black;
+    display: flex;
+    justify-content: center;
+
+    /* justifi content center nam je centriralo sve to ako hocemo razmak stavimo space between, a ako hocemo da ima razmaka sa svih strana stavimo space around a ako npr stavimo space evently to znaci da ce sa svih strana biti isti razmak*/
+    /*    flex-direction: column; to je da iz reda poredja u kolonu a flex-direction: row; je da iz kolone stavi u red*/
+/*align-items nam sluzi umesto justifi kontenta  ako stavimo aligne start ide na pocetak a kao align end onda na kraj kontenjera*/
+flex-wrap: wrap;
+/*to je da ukoliko smanjujemo velicinu ekrana div odma ide ispod drugog diva*/
+align-content: flex-start;
+/*to je kada mi kontrolisemo kada hocemo da kontrolisemo gde ce da nam se pomeri to*/
+}
+.flex-item-1{
+    background-color:green;
+}
+.flex-item-2{
+    background-color: red;
+    align-self: flex-end;
+    /*ovo je kada samo jedan hocemo da pomerimp adrugi ostaju na mesto*/
+}

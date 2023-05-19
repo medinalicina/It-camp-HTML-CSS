@@ -1,0 +1,56 @@
+.kartica{
+    width: 700px;
+    height: 300px;
+    background-color: purple;
+    position: relative;
+    top: 50px;
+}
+.card{
+    width: 150px;
+    height: 95%;
+    position: absolute;
+    top: 5px;
+}
+.card1{
+    width: 150px;
+    height: 95%;
+    background-color: silver;
+    top: 5px;
+    left: 5px;
+    position: absolute;
+
+}
+.card2{
+    width: 150px;
+    height: 95%;
+    background-color: blue;
+    left: 160px;
+    top: 5px;
+    position: absolute;
+
+}
+.card3{
+    width: 150px;
+    height: 95%;
+    top: 5px;
+    left:315px;
+    background-color: brown;
+    position: absolute
+}
+ 
+
+
+/*ovo absolute je pozicioniranje jednog diva u htmlu/*
+
+
+
+.card4{
+    background-color: palevioletred;
+    left: 470px;
+}
+.vezba{
+    z-index: -1;
+}
+
+
+/*z-index je zapravo stavljanje vece kartice ispred manje, znaci da ona koja ima najvecu povrsinu, koja kartica ima veci index ona se pojavljuje ispred prvog/*

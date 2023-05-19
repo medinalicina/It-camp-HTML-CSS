@@ -1,0 +1,49 @@
+.glavni{
+    width: 100%;
+    height: 100%;
+    
+}
+iframe{
+    width: 100%;
+    height: 2000px;
+}
+.forma{
+    position: absolute;
+    background-color: aquamarine;
+    display: flex;
+    
+    
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+button{
+    width: 430px;
+    height: 40px;
+    background-color: blue;
+    color: white;
+    border: none;
+    
+}

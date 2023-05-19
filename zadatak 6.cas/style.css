@@ -1,0 +1,26 @@
+.navigacija{
+
+    background-color: blue;
+}
+.naslov{
+    color: white;
+    display: inline-block;
+    width: 50%;
+    padding-left: 50px;
+
+}
+ul{
+    color: white;
+   
+}
+li{
+     display: inline-block;
+     padding: 20px;
+}
+.lista{
+
+    display: inline-block;
+}
+.lista li:hover{
+    background-color: red;
+}
